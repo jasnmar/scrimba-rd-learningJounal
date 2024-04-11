@@ -12,7 +12,6 @@ function setupIndexPage() {
     renderHero()
     renderMain()
     renderFooter()
-    console.log(posts)
 }
 
 export function renderNav() {
