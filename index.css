@@ -2,7 +2,6 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Source Sans 3', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 90vw;
 }
 /* 
 ==================
@@ -13,6 +12,10 @@ Typography
 nav a {
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
+}
+
+.date {
     text-transform: uppercase;
 }
 
@@ -51,15 +54,24 @@ nav li {
     margin: .5em;
 }
 
- .navbar {
+.navbar {
     display: flex;
     align-items: center;
 }
-
+.hero h1 {
+    font-size: 2rem;
+    margin: 0;
+}
 .hero {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
     background-image: url('./images/article-image-hero.png');
     background-color: black;
     background-size: cover;
+    height: 40vh;
+    min-height: 240px;
+    padding: 1em;
 }
 
 .title {
