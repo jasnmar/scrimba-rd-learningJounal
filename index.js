@@ -4,6 +4,7 @@ setupPage()
 
 function setupPage() {
     renderNav()
+    renderFooter()
 }
 
 function renderNav() {
@@ -20,4 +21,14 @@ function renderNav() {
     const navDiv = document.getElementById("nav")
     navDiv.innerHTML = navHTML
 
+}
+
+
+function renderFooter() {
+    const footerHTML = `
+    <p class="footer-main light">MyLearning Journal</p>
+    <p class="footer-copy light">Copyright ©2024</p>
+    `
+    const footerDiv = document.getElementById("footer")
+    footerDiv.innerHTML = footerHTML
 }

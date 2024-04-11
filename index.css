@@ -56,6 +56,14 @@ nav li {
 article {
     margin: 2em 1em;
 }
+footer {
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
 
 .logo {
     width: 1.2em;
@@ -103,4 +111,7 @@ article {
 }
 .blog-body {
     margin-top: 0;
+}
+footer p {
+    margin:0;
 }
