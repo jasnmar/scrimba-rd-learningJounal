@@ -15,6 +15,7 @@ nav a {
     color: inherit;
     text-transform: uppercase;
 }
+
 .ahero {
     text-decoration: none;
 }
@@ -27,6 +28,7 @@ nav a {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .view-more {
     color: black;
 }
@@ -59,7 +61,7 @@ nav li {
 }
 
 article, #feature {
-    margin: 2em 1em;
+    margin: 2em .5em;
 }
 
 footer {
@@ -68,7 +70,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100px;
+    min-height: 6em;
 }
 
 .logo {
@@ -89,9 +91,12 @@ footer {
     background-image: url('./images/article-image-hero.png');
     background-color: black;
     background-size: cover;
-    height: 40vh;
-    min-height: 240px;
+    min-height: 70vh;
     padding: 1em;
+}
+
+.hero-para {
+    max-width: 60vw;
 }
 
 #feature img {
@@ -112,6 +117,14 @@ footer {
     margin-bottom: 0;
 }
 
+.about-image {
+    margin:1em;
+}
+
+.main-about {
+    margin-bottom: 3em;
+}
+
 .blog-img {
     width:100%
 }
@@ -119,17 +132,21 @@ footer {
 .blog-title {
     margin: 0;
 }
+
 .blog-body {
     margin-top: 0;
 }
+
 .more {
     display: flex;
     justify-content: center;
 }
+
 .view-more {
     text-align: center;
     margin: 0 0 3em 0;
 }
+
 .recents h3 {
     text-align: center;
 }
@@ -153,11 +170,18 @@ Media Selector
         justify-content: space-evenly;
     }
     article {
-        width: 25%
+        width: 30%
     }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
 }
 @media (max-width: 639px) {
     .main-article:nth-child(n+4){
         display: none;
+    }
+    .date {
+        font-size: .75rem
     }
 }
