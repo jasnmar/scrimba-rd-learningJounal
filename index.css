@@ -1,0 +1,30 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans 3', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+.hero {
+    background-image: url('./images/article-image-hero.png');
+    background-color: black;
+    background-size: cover;
+}
+
+
+.light {
+    color:antiquewhite;
+}
