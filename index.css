@@ -4,27 +4,68 @@ html, body {
     font-family: 'Source Sans 3', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90vw;
 }
+/* 
+==================
+Typography 
+==================
+*/
 
-nav {
+nav a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.light {
+    color:antiquewhite;
+}
+
+
+/* 
+==================
+Layout
+==================
+ */
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding:0;
+    margin:0px;
+}
+
+nav li {
+    margin: 10px;
+}
+
+.logo {
+    width: 1.2em;
+    height: 1.2em;
+    margin: .5em;
+}
+
+ .navbar {
     display: flex;
     align-items: center;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-.logo {
-    width: 32px;
-    height: 32px;
-}
 .hero {
     background-image: url('./images/article-image-hero.png');
     background-color: black;
     background-size: cover;
 }
 
+.title {
+    margin:0px;
+}
 
-.light {
-    color:antiquewhite;
+.date {
+    margin-top: 0px;
 }
