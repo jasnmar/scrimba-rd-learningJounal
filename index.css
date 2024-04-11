@@ -19,6 +19,11 @@ nav a {
     text-transform: uppercase;
 }
 
+.blog-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .light {
     color:antiquewhite;
 }
@@ -48,6 +53,10 @@ nav li {
     margin: 10px;
 }
 
+article {
+    margin: 2em 1em;
+}
+
 .logo {
     width: 1.2em;
     height: 1.2em;
@@ -58,10 +67,7 @@ nav li {
     display: flex;
     align-items: center;
 }
-.hero h1 {
-    font-size: 2rem;
-    margin: 0;
-}
+
 .hero {
     display:flex;
     flex-direction: column;
@@ -74,10 +80,27 @@ nav li {
     padding: 1em;
 }
 
+.hero h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
 .title {
     margin:0px;
 }
 
 .date {
     margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.blog-img {
+    width:100%
+}
+
+.blog-title {
+    margin: 0;
+}
+.blog-body {
+    margin-top: 0;
 }
