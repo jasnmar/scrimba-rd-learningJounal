@@ -2,6 +2,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Source Sans 3', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #141414
 }
 /* 
 ==================
@@ -14,6 +15,9 @@ nav a {
     color: inherit;
     text-transform: uppercase;
 }
+.ahero {
+    text-decoration: none;
+}
 
 .date {
     text-transform: uppercase;
@@ -23,11 +27,12 @@ nav a {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
+.view-more {
+    color: black;
+}
 .light {
     color:antiquewhite;
 }
-
 
 /* 
 ==================
@@ -53,9 +58,10 @@ nav li {
     margin: 10px;
 }
 
-article {
+article, #feature {
     margin: 2em 1em;
 }
+
 footer {
     background-color: #202020;
     display: flex;
@@ -88,6 +94,10 @@ footer {
     padding: 1em;
 }
 
+#feature img {
+    width: 100%;
+}
+
 .hero h1 {
     font-size: 2rem;
     margin: 0;
@@ -112,6 +122,42 @@ footer {
 .blog-body {
     margin-top: 0;
 }
+.more {
+    display: flex;
+    justify-content: center;
+}
+.view-more {
+    text-align: center;
+    margin: 0 0 3em 0;
+}
+.recents h3 {
+    text-align: center;
+}
+
 footer p {
     margin:0;
+}
+
+
+/* 
+================
+Media Selector 
+================
+*/
+
+@media (min-width: 640px){
+
+    #main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    article {
+        width: 25%
+    }
+}
+@media (max-width: 639px) {
+    .main-article:nth-child(n+4){
+        display: none;
+    }
 }
