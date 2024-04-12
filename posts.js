@@ -36,7 +36,7 @@ export const posts = [
         summary:"I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         content:[],
         date: "July 23, 2022",
-        image:"blog-image-02.png",
+        image:"blog-image-52.png",
         alt: "A laptop that says I design and develop experiences that make people's lives simple"
     },
     {
