@@ -29,9 +29,12 @@ nav a {
     font-weight: bold;
 }
 
+
 .view-more {
     color: black;
 }
+
+/* Utility class to change the color of stuff to a light color */
 .light {
     color:antiquewhite;
 }
