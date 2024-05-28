@@ -1,7 +1,13 @@
-Part of the Scrimba.com Frontend career path.
+# Learning Journal
+## Module 6, Responsive Design
+from the Scrimba.com Frontend Career Path
 
-Primary goal was around mobile first layout and then adding fucntionality for bigger screens.
+Learning Goals
+Solo project summarizing all of the things we learned in module 6 
 
-Some interesting challenges about hiding content on mobile and showing it where there's more space avaialble at desktop sizes.
 
-I decided to not author the HTLM for the most part, but to write reusable js functions for the nav, footer and main blog sections.
+Installation: Prod:
+```
+None. Download and run.
+```
+Deployment: https://brilliant-hummingbird-d990a6.netlify.app/
